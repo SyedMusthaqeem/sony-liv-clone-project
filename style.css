@@ -994,11 +994,21 @@ section::-webkit-scrollbar{
     }   
 
     .posters{
-        height: 160px;
+        height: 140px;
     }
 
     .medium{
         height: 120px;
+    }
+
+    .posters .child img {
+        height: 100px;
+        border-radius: 5px;
+    }
+
+    .hamburger {
+        top: 37px;
+        width: 40%
     }
 
 }
